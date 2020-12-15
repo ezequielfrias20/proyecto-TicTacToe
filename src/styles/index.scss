@@ -11,3 +11,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+.board {
+    width: 450px;
+    height: 500px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-wrap: wrap;
+}
+.ficha {
+   display: flex;
+   width: 150px;
+   height: 33%;
+   background-color: rgb(44, 44, 44);
+   justify-content: center;
+   border:5px solid white ;
+   align-items: center;
+   color: white;
+}
+.suit{
+    font-size: 100px;
+}
+
